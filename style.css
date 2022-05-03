@@ -19,7 +19,7 @@ body {
     border-radius: 15px;
 } */
 
-.top {
+.topMain {
     display: flex;
     text-align: left;
     flex-grow: 1;
@@ -30,7 +30,7 @@ body {
 }
 
 
-.middle {
+.middleMain {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -39,29 +39,24 @@ body {
     border-width: 2px;
     flex-grow: 3;
     background-color: rgb(255, 255, 255);
-    
     margin-top: 0px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     box-shadow: 5px 5px 12px darkgray;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 2px 2px 5px darkgray;
+    font-family: "Times New Roman", Times, serif;
     
 }
-
-.bottom {
+.bottomMain {
     display: flex;
     flex-grow: 1;
     justify-content: space-evenly;
     align-items: stretch;
     
 }
-
-/* .midContainer {
-    display: flex;
-    margin: 40px;
-    justify-content: space-evenly;
-    align-items: stretch;
-} */
 .midLeftView {
     display: flex;
     flex-grow: 1;
@@ -86,6 +81,47 @@ body {
     align-items: stretch;
     padding: 20px;
 }
+.MidViewItemsMain {
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 2px 2px 5px darkgray;
+    font-family: "Times New Roman", Times, serif;
+}
+/* A Sirius Company Page  1 */
+
+.middle1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 20px;
+    border-width: 2px;
+    flex-grow: 3;
+    background-color: #F7C758;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 5px 5px 12px darkgray;
+    
+}
+.MidViewItems1 {
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 2px 2px 5px darkgray;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+/* .midContainer {
+    display: flex;
+    margin: 40px;
+    justify-content: space-evenly;
+    align-items: stretch;
+} */
+
 .socials {
 display: felx;
 justify-content: space-evenly;
@@ -99,27 +135,21 @@ padding: 10px;
     height: 35px;
 }
 .midImages {
-max-height: 60vh;
-max-width: 100%;
-border-radius: 20px;
+    max-height: 60vh;
+    max-width: 100%;
+    border-radius: 20px;
 
 }
 
 .topTitleImage {
-max-height: 20vh;
-max-width: 35vw;
+    max-height: 20vh;
+    max-width: 35vw;
 
 }
-#midViewItems {
-    flex-grow: 1;
-    font-weight: bold;
-    font-size: x-large;
-    text-shadow: 2px 2px 5px darkgray;
-    font-family: "Times New Roman", Times, serif;
-}
+
 a:link, a:visited {
-    color: #F2F2F7;
-    text-decoration: underline;
+    color: #313131;
+    text-decoration: none;
     cursor: pointer;
   }
   
@@ -134,9 +164,9 @@ a:link, a:visited {
     background-color: #F7C758;
     background-image: url('imgs/SiriusLogo.png');
     background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  margin-top: 0px;
+    background-size: contain;
+    background-position: center;
+    margin-top: 0px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -150,8 +180,8 @@ a:link, a:visited {
     box-shadow: 5px 5px 12px darkgray;
     background-image: url('imgs/Utopyism.png');
     background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
+    background-size: 100% 100%;
+    background-position: center;
     margin-top: 0px;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -165,8 +195,8 @@ a:link, a:visited {
     background-color: rgb(255, 255, 255);
     background-image: url('imgs/pi.png');
     background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+    background-size: contain;
+    background-position: center;
     margin-top: 0px;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -179,8 +209,8 @@ a:link, a:visited {
     box-shadow: 5px 5px 12px darkgray;
     background-image: url('imgs/internetmall.png');
     background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
+    background-size: 100% 100%;
+    background-position: center;
     margin-top: 0px;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -192,6 +222,10 @@ a:link, a:visited {
     flex-grow: 1;
     box-shadow: 5px 5px 12px darkgray;
     background-color: rgb(255, 255, 255);
+    background-image: url('imgs/comingsoon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     margin-top: 0px;
     margin-bottom: 20px;
     margin-left: 20px;
