@@ -1,66 +1,199 @@
 
 html {
     height: 100%;
+    max-height: 100%;
+    min-height: 100%;
     background-color: #F2F2F7;
 }
 body {
-    
     min-height: 100%;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    
+    padding: 10px;
+    margin: 0px;
 }
 /* img {
-    width: 100%;
-    height: auto;
+    border-radius: 15px;
 } */
 
 .top {
     display: flex;
     text-align: left;
-    border-radius: 20px;
-    border-width: 2px;
-    margin: 10px;
-    padding: 5px;
+    flex-grow: 1;
+    max-height: 10vh;
+    margin: 20px;
     justify-content: space-between;
     align-items: center;
 }
 
 
 .middle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: stretch;
     border-radius: 20px;
     border-width: 2px;
-    flex-grow: 7;
+    flex-grow: 3;
     background-color: rgb(255, 255, 255);
-    margin: 10px;
+    
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 5px 5px 12px darkgray;
     
 }
 
 .bottom {
     display: flex;
-    flex-grow: 2;
-    border-radius: 20px;
-    border-width: 2px;
-    background-color: rgb(255, 255, 255);
-    margin: 10px;
-}
-
-.midContainer {
-    display: flex;
+    flex-grow: 1;
     justify-content: space-evenly;
     align-items: stretch;
+    
 }
-.midLeftView {
-    flex-grow: 1;
+
+/* .midContainer {
+    display: flex;
+    margin: 40px;
+    justify-content: space-evenly;
     align-items: stretch;
+} */
+.midLeftView {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .midMidView {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
+    justify-content: center;
     align-items: stretch;
+    padding: 20px;
 }
 .midRightView {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
+    justify-content: center;
     align-items: stretch;
+    padding: 20px;
+}
+.socials {
+display: felx;
+justify-content: space-evenly;
+align-items: center;
+padding: 10px;
+}
+
+.socialimage {
+    padding-left: 20px;
+    width: 35px;
+    height: 35px;
+}
+.midImages {
+max-height: 60vh;
+max-width: 100%;
+border-radius: 20px;
+
+}
+
+.topTitleImage {
+max-height: 20vh;
+max-width: 35vw;
+
+}
+#midViewItems {
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 2px 2px 5px darkgray;
+    font-family: "Times New Roman", Times, serif;
+}
+a:link, a:visited {
+    color: #F2F2F7;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  a:link:active, a:visited:active {
+    color: #F2F2F7
+  }
+  .bottomSQ1 {
+    border-radius: 20px;
+    border-width: 2px;
+    flex-grow: 1;
+    box-shadow: 5px 5px 12px darkgray;
+    background-color: #F7C758;
+    background-image: url('imgs/SiriusLogo.png');
+    background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 17vh;
+    
+}
+.bottomSQ2 {
+    border-radius: 20px;
+    border-width: 2px;
+    flex-grow: 1;
+    box-shadow: 5px 5px 12px darkgray;
+    background-image: url('imgs/Utopyism.png');
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.bottomSQ3 {
+    border-radius: 20px;
+    border-width: 2px;
+    flex-grow: 1;
+    box-shadow: 5px 5px 12px darkgray;
+    background-color: rgb(255, 255, 255);
+    background-image: url('imgs/pi.png');
+    background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.bottomSQ4 {
+    border-radius: 20px;
+    border-width: 2px;
+    flex-grow: 1;
+    box-shadow: 5px 5px 12px darkgray;
+    background-image: url('imgs/internetmall.png');
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.bottomSQ5 {
+    border-radius: 20px;
+    border-width: 2px;
+    flex-grow: 1;
+    box-shadow: 5px 5px 12px darkgray;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
