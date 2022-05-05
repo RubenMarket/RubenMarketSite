@@ -192,6 +192,28 @@ body {
     box-shadow: 5px 5px 12px darkgray;
     
 }
+.midText4 {
+    min-height: 40vh;
+    max-width: 100%;
+    flex-grow: 1;
+    color:white;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 2px 2px 5px darkgray;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.midText5 {
+    min-height: 40vh;
+    max-width: 100%;
+    flex-grow: 1;
+    color:black;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 2px 2px 5px darkgray;
+    font-family: "Times New Roman", Times, serif;
+
+}
 
 .socials {
 display: felx;
