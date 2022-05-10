@@ -32,7 +32,7 @@ body {
         display: none;
       }
       div.mobileText {
-          color: black;
+          color: #1C1C1E;
           display: flex;
           flex-direction: column;
             justify-content: center;
@@ -55,7 +55,7 @@ body {
       }
       div.mobileText {
           display: flex;
-          color: black;
+          color: #1C1C1E;
           flex-direction: column;
             justify-content: center;
             align-items: stretch;
@@ -85,13 +85,13 @@ body {
     margin-bottom: 0px;
     margin-left: 20px;
     margin-right: 20px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    color: black;
+    color: #1C1C1E;
     font-size: 5em;
     font-weight: bold;
     font-family: 'Patrick Hand', cursive;
-    text-shadow: 2px 2px 9px lightgray;
+    /* text-shadow: 2px 2px 9px lightgray; */
 }
 
 
@@ -111,7 +111,7 @@ body {
     box-shadow: 5px 5px 12px darkgray;
     font-weight: bold;
     font-size: x-large;
-    text-shadow: 2px 2px 9px lightgray;
+    /* text-shadow: 2px 2px 9px lightgray; */
     font-family: 'Patrick Hand', cursive;
     
 }
@@ -150,7 +150,7 @@ body {
     flex-grow: 1;
     font-weight: bold;
     font-size: x-large;
-    color: black;
+    color: #1C1C1E;
     /* background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
@@ -184,7 +184,7 @@ body {
     color:white;
     font-weight: bold;
     font-size: x-large;
-    text-shadow: 2px 2px 15px lightgray;
+    /* text-shadow: 2px 2px 15px lightgray; */
     font-family: 'Patrick Hand', cursive;
 }
 
@@ -270,7 +270,7 @@ body {
 .midText5 {
     max-width: 100%;
     flex-grow: 1;
-    color:black;
+    color: #1C1C1E;
     font-weight: bold;
     font-size: x-large;
     font-family: 'Patrick Hand', cursive;
@@ -304,14 +304,14 @@ body {
 }
 
 a:link, a:visited {
-    color:black;
+    color:#1C1C1E;
     text-decoration: none;
     cursor: pointer;
     text-align: center;
   }
   
   a:link:active, a:visited:active {
-    color: black;
+    color: #1C1C1E;
     text-align: center;
   }
   .bottomSQ0 {
