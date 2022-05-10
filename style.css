@@ -247,9 +247,10 @@ body {
     border-radius: 20px;
     border-width: 2px;
     flex-grow: 4;
-    background-image: url('imgs/internetmall.png');
+    background-color: white;
+    background-image: url('imgs/peeplebacktitle.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: contain;
     background-position: center;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -388,7 +389,7 @@ a:link, a:visited {
     border-width: 2px;
     flex-grow: 1;
     box-shadow: 5px 5px 12px darkgray;
-    background-image: url('imgs/internetmall.png');
+    background-image: url('imgs/peepletitle.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
