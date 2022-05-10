@@ -31,6 +31,18 @@ body {
       div.middleMain {
         display: none;
       }
+      div.middle4 {
+          display: none;
+      }
+      div.middle1 {
+        display: none;
+    }
+    div.middle2 {
+        display: none;
+    }
+    div.middle3 {
+        display: none;
+    }
       div.mobileText {
           color: #1C1C1E;
           display: flex;
@@ -40,7 +52,7 @@ body {
             
       }
 }
-@media only screen and (max-height: 600px) {
+/* @media only screen and (max-height: 600px) {
     body {
         background-color: #F2F2F7;
     }
@@ -61,7 +73,7 @@ body {
             align-items: stretch;
             
       }
-}
+} */
 
 /* img {
     border-radius: 15px;
@@ -102,7 +114,7 @@ body {
     align-items: stretch;
     border-radius: 20px;
     border-width: 2px;
-    flex-grow: 4;
+    flex-grow: 2;
     background-color: rgb(255, 255, 255);
     margin-top: 30px;
     margin-bottom: 30px;
@@ -166,7 +178,7 @@ body {
     align-items: stretch;
     border-radius: 20px;
     border-width: 2px;
-    flex-grow: 4;
+    flex-grow: 2;
     background-color: #F7C758;
     background-image: url('imgs/SiriusBackLogo.png');
     background-repeat: no-repeat;
@@ -202,7 +214,7 @@ body {
     align-items: stretch;
     border-radius: 20px;
     border-width: 2px;
-    flex-grow: 4;
+    flex-grow: 2;
     background-image: url('imgs/Utopyism.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -224,7 +236,7 @@ body {
     align-items: stretch;
     border-radius: 20px;
     border-width: 2px;
-    flex-grow: 4;
+    flex-grow: 2;
     background-color: white;
     /* background-image: url('imgs/pi.png'); */
     background-repeat: no-repeat;
@@ -246,7 +258,7 @@ body {
     align-items: stretch;
     border-radius: 20px;
     border-width: 2px;
-    flex-grow: 4;
+    flex-grow: 2;
     background-color: white;
     background-image: url('imgs/peeplebacktitle.jpg');
     background-repeat: no-repeat;
