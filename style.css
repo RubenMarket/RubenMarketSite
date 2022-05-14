@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-left: 30px;
     padding-right: 30px;
     margin: 0px;
@@ -98,7 +98,6 @@ body {
     text-align: center;
     font-size: x-large;
     /* text-shadow: 2px 2px 5px darkgray; */
-    font-family: 'Patrick Hand', cursive;
 }
 .topMain {
     display: flex;
@@ -109,12 +108,11 @@ body {
     margin-bottom: 0px;
     margin-left: 20px;
     margin-right: 20px;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items:center;
     color: #1C1C1E;
     font-size: 11vh;
     font-weight: bold;
-    font-family: 'Patrick Hand', cursive;
     /* text-shadow: 2px 2px 9px lightgray; */
 }
 
@@ -136,12 +134,11 @@ body {
     font-weight: bold;
     font-size: 7vh;
     /* text-shadow: 2px 2px 9px lightgray; */
-    font-family: 'Patrick Hand', cursive;
     
 }
 .bottomMain {
     display: flex;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     justify-content: space-evenly;
     align-items: stretch;
     
@@ -179,7 +176,6 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
   text-shadow: 2px 2px 15px lightgray;
-    font-family: 'Patrick Hand', cursive;
 }
 /* A Sirius Company Page  1 */
 
@@ -209,7 +205,6 @@ body {
     font-weight: bold;
     font-size: x-large;
     /* text-shadow: 2px 2px 15px lightgray; */
-    font-family: 'Patrick Hand', cursive;
 }
 
 .midImage1 {
@@ -289,7 +284,6 @@ body {
     color:white;
     font-weight: bold;
     font-size: x-large;
-    font-family: 'Patrick Hand', cursive;
 
 }
 .midText5 {
@@ -298,7 +292,6 @@ body {
     color: #1C1C1E;
     font-weight: bold;
     font-size: x-large;
-    font-family: 'Patrick Hand', cursive;
 
 }
 
